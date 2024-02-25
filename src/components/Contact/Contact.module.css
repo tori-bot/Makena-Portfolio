@@ -45,6 +45,23 @@
     letter-spacing: 1.5px;
 }
 
+.copy{
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: var(--color-text);
+}
+
+.copy img{
+    width: 20px;
+    height: 20px;
+}
+
 @media screen and (max-width: 830px) {
     .container{
         flex-direction: column;
